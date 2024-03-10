@@ -2,21 +2,22 @@ package G_Inheritance;
 
 class BaseClass {
     public void hi() {
-        System.out.println("Hi from base class.");
+        System.out.println("Hi, this is the method of base class.");
     }
 }
 
 class DerivedClass extends BaseClass {
     public void hi() {
-        System.out.println("Hi from derived class.");
+        System.out.println("Hi, this is the method of derived class.");
     }
 }
 
 public class d_single_same_method {
     public static void main(String[] args) {
-        DerivedClass obj1 = new DerivedClass();
-        // DerivedClass obj2 = new BaseClass();
-        obj1.hi();
-        // obj2.hi();
+        BaseClass b1 = new BaseClass();
+        // DerivedClass d1 = new DerivedClass();
+        BaseClass d1 = new DerivedClass();
+        b1.hi();
+        d1.hi();
     }
 }
