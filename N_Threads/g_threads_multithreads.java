@@ -29,13 +29,22 @@ class ThreadTwo extends Thread {
 
 public class g_threads_multithreads {
     public static void main(String[] args) {
+        // life cycle of thread
+        // Threads new state
         ThreadOne t1 = new ThreadOne();
         ThreadTwo t2 = new ThreadTwo();
 
+        // both the above threads are in runnable state
+        // running state of both threads
         t1.start();
 
+        // move control to another thread
+        // A yield() method is a static method of Thread class
+        // and it can stop the currently executing thread and will
+        // give a chance to other waiting threads of the same priority.
         Thread.yield();
 
+        // blocked state ThreadOne
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
