@@ -1,8 +1,6 @@
 package S_Layout_Managers;
 
-import java.awt.GridBagLayout;
 import java.awt.GridLayout;
-
 import javax.swing.JButton;
 import javax.swing.JFrame;
 
