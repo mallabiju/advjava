@@ -3,8 +3,8 @@ package U_Menu;
 import javax.swing.*;
 import java.awt.event.*;
 
-class b_jpopupmenu {
-    b_jpopupmenu() {
+class e_jpopupmenu {
+    e_jpopupmenu() {
         final JFrame popup_f = new JFrame("Popup Menu Demo");
         final JPopupMenu popupmenu = new JPopupMenu("Edit");
         JMenuItem popup_copy = new JMenuItem("Copy");
@@ -25,7 +25,7 @@ class b_jpopupmenu {
     }
 
     public static void main(String args[]) {
-        new b_jpopupmenu();
+        new e_jpopupmenu();
     }
 }
 

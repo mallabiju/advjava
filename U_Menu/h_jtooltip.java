@@ -2,7 +2,7 @@ package U_Menu;
 
 import javax.swing.*;
 
-public class e_jtooltip {
+public class h_jtooltip {
     public static void main(String[] args) {
         JFrame f = new JFrame("Password Field Example");
         // Creating PasswordField and label

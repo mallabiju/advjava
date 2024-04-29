@@ -3,7 +3,7 @@ package U_Menu;
 import java.awt.*;
 import javax.swing.*;
 
-public class d_jtoolbar {
+public class g_jtoolbar {
     public static void main(String[] args) {
         JFrame myframe = new JFrame("JToolBar Example");
         myframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

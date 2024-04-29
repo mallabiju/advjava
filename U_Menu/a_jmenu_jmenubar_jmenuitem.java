@@ -22,6 +22,8 @@ public class a_jmenu_jmenubar_jmenuitem {
         menu_i4 = new JMenuItem("Trainings");
         menu_i5 = new JMenuItem("Research");
 
+        menu_i1.setEnabled(false);  // disabling the menu item 
+
         m_menu.add(menu_i1);
         m_menu.add(menu_i2);
         m_menu.add(menu_i3);
